@@ -1,7 +1,13 @@
 #include<stdio.h>
 #define MAX 100
 
-typedef string[MAX+1];
+typedef char string[MAX+1];
+
+struct contacts
+{
+  
+};
+
 int main()
 {
   return 0;
