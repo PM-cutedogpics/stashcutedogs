@@ -2,7 +2,7 @@
 #define MAX 100
 
 typedef char string[MAX+1];
-
+struct 
 struct contacts
 {
   
