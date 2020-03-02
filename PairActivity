@@ -3,11 +3,22 @@
 
 typedef char string[MAX+1];
 typedef char string25[26];
-struct 
+typedef char string50[51];
+
+struct name{
+  string25  first;
+  string25  last;
+  char    middle;
+};
+
 struct contacts
 {
-  
+  struct  name;
+  string50  address;
+  int     phoneNo[5];
+  int     totalNo;
 };
+
 
 int main()
 {
