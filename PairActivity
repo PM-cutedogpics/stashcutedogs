@@ -1,4 +1,7 @@
 #include<stdio.h>
+#define MAX 100
+
+typedef string[MAX+1];
 int main()
 {
   return 0;
