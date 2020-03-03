@@ -19,9 +19,37 @@ struct contacts
   int     totalNo;
 };
 
+void getInput(struct name *details)
+{
+  int i, j;
+  int num;
+  
+  for(i=0; i<MAX || strcmp(details[i]->name.first, "XXX")!=0); i++)
+  {
+    printf("Enter Name:\n");
+    printf("First Name:\n" );
+    scanf("%s", details[i]->name.first;
+    printf("Enter Middle Initial:\n")
+    scanf("%c", &details[i]->name.middle);
+    printf("Enter Last Name\n");
+    scanf("%s", details[i]->name.last);
+    
+    printf("Enter Address:\n");
+    scanf("%s", details->address);
+    
+    for(j=0; j<5 && strcmp(details[i]->phoneNo[j],"XXX")!=0; j++)
+    {
+      printf("Enter Phone Number %d\n", j+1);
+      scanf("%d", &details[i]->phoneNo[j]);
+      details[i]->totalNo[j]++;
+    }
+    
+  }
+}
 
 int main()
 {
-  return 0;
+ struct name details;
+ return 0;
 }
 
