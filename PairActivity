@@ -24,7 +24,7 @@ void getInput(struct name *details)
   int i, j;
   int num;
   
-  for(i=0; i<MAX || strcmp(details[i]->name.first, "XXX")!=0); i++)
+  for(i=0; i<MAX || !strcmp(details[i]->name.first, "XXX")); i++)
   {
     printf("Enter Name:\n");
     printf("First Name:\n" );
